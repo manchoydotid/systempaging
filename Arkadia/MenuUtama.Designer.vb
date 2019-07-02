@@ -23,16 +23,16 @@ Partial Class MenuUtama
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.Pengetesan = New System.Windows.Forms.PictureBox()
+        Me.Latihan = New System.Windows.Forms.PictureBox()
+        Me.PemadamanListrik = New System.Windows.Forms.PictureBox()
         Me.AncamanBom = New System.Windows.Forms.PictureBox()
         Me.GempaBumi = New System.Windows.Forms.PictureBox()
         Me.Kebakaran = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Pengetesan, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Latihan, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PemadamanListrik, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.AncamanBom, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GempaBumi, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Kebakaran, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -41,9 +41,9 @@ Partial Class MenuUtama
         'Panel1
         '
         Me.Panel1.BackgroundImage = Global.Arkadia.My.Resources.Resources.Menu_background_paging_system
-        Me.Panel1.Controls.Add(Me.PictureBox5)
-        Me.Panel1.Controls.Add(Me.PictureBox4)
-        Me.Panel1.Controls.Add(Me.PictureBox3)
+        Me.Panel1.Controls.Add(Me.Pengetesan)
+        Me.Panel1.Controls.Add(Me.Latihan)
+        Me.Panel1.Controls.Add(Me.PemadamanListrik)
         Me.Panel1.Controls.Add(Me.AncamanBom)
         Me.Panel1.Controls.Add(Me.GempaBumi)
         Me.Panel1.Controls.Add(Me.Kebakaran)
@@ -53,40 +53,40 @@ Partial Class MenuUtama
         Me.Panel1.Size = New System.Drawing.Size(1016, 741)
         Me.Panel1.TabIndex = 0
         '
-        'PictureBox5
+        'Pengetesan
         '
-        Me.PictureBox5.Image = Global.Arkadia.My.Resources.Resources.pengetesan
-        Me.PictureBox5.Location = New System.Drawing.Point(805, 575)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(161, 53)
-        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox5.TabIndex = 5
-        Me.PictureBox5.TabStop = False
+        Me.Pengetesan.Image = Global.Arkadia.My.Resources.Resources.pengetesan
+        Me.Pengetesan.Location = New System.Drawing.Point(805, 571)
+        Me.Pengetesan.Name = "Pengetesan"
+        Me.Pengetesan.Size = New System.Drawing.Size(161, 53)
+        Me.Pengetesan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Pengetesan.TabIndex = 5
+        Me.Pengetesan.TabStop = False
         '
-        'PictureBox4
+        'Latihan
         '
-        Me.PictureBox4.Image = Global.Arkadia.My.Resources.Resources.latihan
-        Me.PictureBox4.Location = New System.Drawing.Point(805, 502)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(161, 53)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox4.TabIndex = 4
-        Me.PictureBox4.TabStop = False
+        Me.Latihan.Image = Global.Arkadia.My.Resources.Resources.latihan
+        Me.Latihan.Location = New System.Drawing.Point(805, 499)
+        Me.Latihan.Name = "Latihan"
+        Me.Latihan.Size = New System.Drawing.Size(161, 53)
+        Me.Latihan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Latihan.TabIndex = 4
+        Me.Latihan.TabStop = False
         '
-        'PictureBox3
+        'PemadamanListrik
         '
-        Me.PictureBox3.Image = Global.Arkadia.My.Resources.Resources.pemadaman_listrik
-        Me.PictureBox3.Location = New System.Drawing.Point(805, 430)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(161, 53)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox3.TabIndex = 3
-        Me.PictureBox3.TabStop = False
+        Me.PemadamanListrik.Image = Global.Arkadia.My.Resources.Resources.pemadaman_listrik
+        Me.PemadamanListrik.Location = New System.Drawing.Point(805, 427)
+        Me.PemadamanListrik.Name = "PemadamanListrik"
+        Me.PemadamanListrik.Size = New System.Drawing.Size(161, 53)
+        Me.PemadamanListrik.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PemadamanListrik.TabIndex = 3
+        Me.PemadamanListrik.TabStop = False
         '
         'AncamanBom
         '
         Me.AncamanBom.Image = Global.Arkadia.My.Resources.Resources.ancaman_boom
-        Me.AncamanBom.Location = New System.Drawing.Point(805, 357)
+        Me.AncamanBom.Location = New System.Drawing.Point(805, 355)
         Me.AncamanBom.Name = "AncamanBom"
         Me.AncamanBom.Size = New System.Drawing.Size(161, 53)
         Me.AncamanBom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -96,7 +96,7 @@ Partial Class MenuUtama
         'GempaBumi
         '
         Me.GempaBumi.Image = Global.Arkadia.My.Resources.Resources.gempa
-        Me.GempaBumi.Location = New System.Drawing.Point(805, 287)
+        Me.GempaBumi.Location = New System.Drawing.Point(805, 284)
         Me.GempaBumi.Name = "GempaBumi"
         Me.GempaBumi.Size = New System.Drawing.Size(161, 53)
         Me.GempaBumi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -106,7 +106,7 @@ Partial Class MenuUtama
         'Kebakaran
         '
         Me.Kebakaran.Image = Global.Arkadia.My.Resources.Resources.kebakaran
-        Me.Kebakaran.Location = New System.Drawing.Point(805, 216)
+        Me.Kebakaran.Location = New System.Drawing.Point(805, 215)
         Me.Kebakaran.Name = "Kebakaran"
         Me.Kebakaran.Size = New System.Drawing.Size(161, 53)
         Me.Kebakaran.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -122,9 +122,9 @@ Partial Class MenuUtama
         Me.Name = "MenuUtama"
         Me.Text = "MenuUtama"
         Me.Panel1.ResumeLayout(False)
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Pengetesan, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Latihan, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PemadamanListrik, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.AncamanBom, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GempaBumi, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Kebakaran, System.ComponentModel.ISupportInitialize).EndInit()
@@ -134,9 +134,9 @@ Partial Class MenuUtama
 
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Kebakaran As PictureBox
-    Friend WithEvents PictureBox5 As PictureBox
-    Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents Pengetesan As PictureBox
+    Friend WithEvents Latihan As PictureBox
+    Friend WithEvents PemadamanListrik As PictureBox
     Friend WithEvents AncamanBom As PictureBox
     Friend WithEvents GempaBumi As PictureBox
 End Class

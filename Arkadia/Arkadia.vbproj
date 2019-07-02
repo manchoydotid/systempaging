@@ -72,9 +72,16 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MenuUtama.vb" />
+    <Compile Include="FormCaption.Designer.vb">
+      <DependentUpon>FormCaption.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCaption.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MenuUtama.Designer.vb">
       <DependentUpon>MenuUtama.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuUtama.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -92,13 +99,28 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="FormSubMenu.Designer.vb">
+      <DependentUpon>FormSubMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormSubMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormCaption.resx">
+      <DependentUpon>FormCaption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuUtama.resx">
+      <DependentUpon>MenuUtama.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSubMenu.resx">
+      <DependentUpon>FormSubMenu.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -112,6 +134,91 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu-background-paging-system.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kebakaran.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gempa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ancaman-boom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pemadaman-listrik.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\latihan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pengetesan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sub-menu-paging-system.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gempa-pasca-gempa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gempa-evakuasi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gempa-evakuasi-pulang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gempa-tidak-evakuasi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gempa-assembly-area.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gempa-segera-pulang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gempa-sarankan-pulang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gempa-kondisi-normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caption-background-paging-kosongan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button-kosong.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
